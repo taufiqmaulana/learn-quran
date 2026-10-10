@@ -19,6 +19,26 @@ npm test           # data + logic tests (Vitest)
 npm run build      # typecheck + production build into dist/
 ```
 
+## Deployment (Firebase Hosting)
+
+The app is hosted on Firebase project `learn-quran-94553` (see `.firebaserc`) at <https://learn-quran-94553.web.app>. You need the [Firebase CLI](https://firebase.google.com/docs/cli) installed, and you must be logged in with `firebase login` as an account that has access to the project.
+
+```sh
+npm run deploy:preview   # build + deploy to a temporary preview URL (expires in 7 days)
+npm run deploy           # test + build + deploy to the live site
+```
+
+`firebase.json` sets up two things:
+
+- **Routing:** every app route (`/jilid/...`, `/latihan/...`) is served `index.html`, so deep links and page refreshes work.
+- **Caching:**
+
+| Path | Cache-Control | Why |
+|---|---|---|
+| `/`, `/index.html`, app routes | `no-cache` | A new deploy shows up immediately. |
+| `/assets/**` | one year, immutable | Vite fingerprints these filenames, so the content never changes under the same name. |
+| `/audio/**` | 7 days | Recordings can be swapped under the same filename. |
+
 ## Audio
 
 Every sound is looked up by ID in `src/data/audio-manifest.json`, for example `letter.ba.name` and `letter.ba.sound`. For each sound, the app uses the first of these that's available:
