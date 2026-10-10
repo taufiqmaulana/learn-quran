@@ -1,0 +1,234 @@
+[
+  {
+    "id": "alif",
+    "char": "ا",
+    "name": "Alif",
+    "translit": "a",
+    "joinsLeft": false,
+    "sound": "أَ"
+  },
+  {
+    "id": "ba",
+    "char": "ب",
+    "name": "Ba",
+    "translit": "b",
+    "joinsLeft": true,
+    "sound": "بَ"
+  },
+  {
+    "id": "ta",
+    "char": "ت",
+    "name": "Ta",
+    "translit": "t",
+    "joinsLeft": true,
+    "sound": "تَ"
+  },
+  {
+    "id": "tsa",
+    "char": "ث",
+    "name": "Tsa",
+    "translit": "ts",
+    "joinsLeft": true,
+    "sound": "ثَ"
+  },
+  {
+    "id": "jim",
+    "char": "ج",
+    "name": "Jim",
+    "translit": "j",
+    "joinsLeft": true,
+    "sound": "جَ"
+  },
+  {
+    "id": "ha_h",
+    "char": "ح",
+    "name": "Ha",
+    "translit": "ḥ",
+    "joinsLeft": true,
+    "sound": "حَ"
+  },
+  {
+    "id": "kho",
+    "char": "خ",
+    "name": "Kho",
+    "translit": "kh",
+    "joinsLeft": true,
+    "sound": "خَ"
+  },
+  {
+    "id": "dal",
+    "char": "د",
+    "name": "Dal",
+    "translit": "d",
+    "joinsLeft": false,
+    "sound": "دَ"
+  },
+  {
+    "id": "dzal",
+    "char": "ذ",
+    "name": "Dzal",
+    "translit": "dz",
+    "joinsLeft": false,
+    "sound": "ذَ"
+  },
+  {
+    "id": "ro",
+    "char": "ر",
+    "name": "Ro",
+    "translit": "r",
+    "joinsLeft": false,
+    "sound": "رَ"
+  },
+  {
+    "id": "zai",
+    "char": "ز",
+    "name": "Zai",
+    "translit": "z",
+    "joinsLeft": false,
+    "sound": "زَ"
+  },
+  {
+    "id": "sin",
+    "char": "س",
+    "name": "Sin",
+    "translit": "s",
+    "joinsLeft": true,
+    "sound": "سَ"
+  },
+  {
+    "id": "syin",
+    "char": "ش",
+    "name": "Syin",
+    "translit": "sy",
+    "joinsLeft": true,
+    "sound": "شَ"
+  },
+  {
+    "id": "shod",
+    "char": "ص",
+    "name": "Shod",
+    "translit": "sh",
+    "joinsLeft": true,
+    "sound": "صَ"
+  },
+  {
+    "id": "dhod",
+    "char": "ض",
+    "name": "Dhod",
+    "translit": "dh",
+    "joinsLeft": true,
+    "sound": "ضَ"
+  },
+  {
+    "id": "tho",
+    "char": "ط",
+    "name": "Tho",
+    "translit": "th",
+    "joinsLeft": true,
+    "sound": "طَ"
+  },
+  {
+    "id": "zho",
+    "char": "ظ",
+    "name": "Zho",
+    "translit": "zh",
+    "joinsLeft": true,
+    "sound": "ظَ"
+  },
+  {
+    "id": "ain",
+    "char": "ع",
+    "name": "'Ain",
+    "translit": "'",
+    "joinsLeft": true,
+    "sound": "عَ"
+  },
+  {
+    "id": "ghoin",
+    "char": "غ",
+    "name": "Ghoin",
+    "translit": "gh",
+    "joinsLeft": true,
+    "sound": "غَ"
+  },
+  {
+    "id": "fa",
+    "char": "ف",
+    "name": "Fa",
+    "translit": "f",
+    "joinsLeft": true,
+    "sound": "فَ"
+  },
+  {
+    "id": "qof",
+    "char": "ق",
+    "name": "Qof",
+    "translit": "q",
+    "joinsLeft": true,
+    "sound": "قَ"
+  },
+  {
+    "id": "kaf",
+    "char": "ك",
+    "name": "Kaf",
+    "translit": "k",
+    "joinsLeft": true,
+    "sound": "كَ"
+  },
+  {
+    "id": "lam",
+    "char": "ل",
+    "name": "Lam",
+    "translit": "l",
+    "joinsLeft": true,
+    "sound": "لَ"
+  },
+  {
+    "id": "mim",
+    "char": "م",
+    "name": "Mim",
+    "translit": "m",
+    "joinsLeft": true,
+    "sound": "مَ"
+  },
+  {
+    "id": "nun",
+    "char": "ن",
+    "name": "Nun",
+    "translit": "n",
+    "joinsLeft": true,
+    "sound": "نَ"
+  },
+  {
+    "id": "wau",
+    "char": "و",
+    "name": "Wau",
+    "translit": "w",
+    "joinsLeft": false,
+    "sound": "وَ"
+  },
+  {
+    "id": "ha",
+    "char": "ه",
+    "name": "Ha",
+    "translit": "h",
+    "joinsLeft": true,
+    "sound": "هَ"
+  },
+  {
+    "id": "hamzah",
+    "char": "ء",
+    "name": "Hamzah",
+    "translit": "'",
+    "joinsLeft": false,
+    "sound": "ءَ"
+  },
+  {
+    "id": "ya",
+    "char": "ي",
+    "name": "Ya",
+    "translit": "y",
+    "joinsLeft": true,
+    "sound": "يَ"
+  }
+]

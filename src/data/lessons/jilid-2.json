@@ -1,0 +1,8 @@
+[
+  { "id": "j2-l1", "jilid": 2, "title": "Bentuk Alif sampai Jim", "card": "forms", "items": ["alif", "ba", "ta", "tsa", "jim"], "practice": ["form-match", "see-pick"] },
+  { "id": "j2-l2", "jilid": 2, "title": "Bentuk Ha sampai Ro", "card": "forms", "items": ["ha_h", "kho", "dal", "dzal", "ro"], "practice": ["form-match", "see-pick"] },
+  { "id": "j2-l3", "jilid": 2, "title": "Bentuk Zai sampai Dhod", "card": "forms", "items": ["zai", "sin", "syin", "shod", "dhod"], "practice": ["form-match", "see-pick"] },
+  { "id": "j2-l4", "jilid": 2, "title": "Bentuk Tho sampai Fa", "card": "forms", "items": ["tho", "zho", "ain", "ghoin", "fa"], "practice": ["form-match", "see-pick"] },
+  { "id": "j2-l5", "jilid": 2, "title": "Bentuk Qof sampai Nun", "card": "forms", "items": ["qof", "kaf", "lam", "mim", "nun"], "practice": ["form-match", "see-pick"] },
+  { "id": "j2-l6", "jilid": 2, "title": "Bentuk Wau sampai Ya", "card": "forms", "items": ["wau", "ha", "ya"], "practice": ["form-match", "see-pick"] }
+]

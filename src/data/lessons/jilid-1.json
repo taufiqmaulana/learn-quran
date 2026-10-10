@@ -1,0 +1,8 @@
+[
+  { "id": "j1-l1", "jilid": 1, "title": "Alif sampai Jim", "items": ["alif", "ba", "ta", "tsa", "jim"], "practice": ["listen-pick"] },
+  { "id": "j1-l2", "jilid": 1, "title": "Ha sampai Ro", "items": ["ha_h", "kho", "dal", "dzal", "ro"], "practice": ["listen-pick"] },
+  { "id": "j1-l3", "jilid": 1, "title": "Zai sampai Dhod", "items": ["zai", "sin", "syin", "shod", "dhod"], "practice": ["listen-pick"] },
+  { "id": "j1-l4", "jilid": 1, "title": "Tho sampai Fa", "items": ["tho", "zho", "ain", "ghoin", "fa"], "practice": ["listen-pick"] },
+  { "id": "j1-l5", "jilid": 1, "title": "Qof sampai Nun", "items": ["qof", "kaf", "lam", "mim", "nun"], "practice": ["listen-pick"] },
+  { "id": "j1-l6", "jilid": 1, "title": "Wau sampai Ya", "items": ["wau", "ha", "hamzah", "ya"], "practice": ["listen-pick"] }
+]

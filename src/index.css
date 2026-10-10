@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fff7e8;
+  --color-sand: #fde9c4;
+  --color-ink: #3b2f2f;
+  --color-ink-soft: #7a6a5f;
+  --color-leaf: #2f9e76;
+  --color-leaf-dark: #22795a;
+  --color-sun: #f5a524;
+  --color-sun-dark: #c97f0c;
+  --color-sky: #4f8fe8;
+  --color-sky-dark: #3368b8;
+  --color-berry: #e5577a;
+  --color-stone: #d9d0c3;
+
+  --font-ui: "Nunito", ui-rounded, system-ui, sans-serif;
+  --font-arabic: "Scheherazade New", "Amiri", "Noto Naskh Arabic", serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+.arabic {
+  font-family: var(--font-arabic);
+  /* Scheherazade has tall ascenders/descenders; keep glyphs from clipping. */
+  line-height: 1.6;
+}
+
+/* Chunky "3D" button used throughout the app. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 64px;
+  min-width: 64px;
+  padding: 0 1.5rem;
+  border-radius: 1.25rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: white;
+  border-bottom: 6px solid rgb(0 0 0 / 0.2);
+  transition: transform 80ms, border-bottom-width 80ms;
+  user-select: none;
+  touch-action: manipulation;
+}
+.btn:active {
+  transform: translateY(4px);
+  border-bottom-width: 2px;
+}
+.btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.btn:focus-visible,
+.tile:focus-visible {
+  outline: 4px solid var(--color-sky);
+  outline-offset: 3px;
+}
+
+@keyframes bounce-once {
+  0%, 100% { transform: scale(1); }
+  40% { transform: scale(1.12); }
+  70% { transform: scale(0.96); }
+}
+@keyframes wobble {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-10px) rotate(-3deg); }
+  40% { transform: translateX(10px) rotate(3deg); }
+  60% { transform: translateX(-6px); }
+  80% { transform: translateX(6px); }
+}
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgb(47 158 118 / 0.6); }
+  50% { box-shadow: 0 0 0 14px rgb(47 158 118 / 0); }
+}
+@keyframes pop-in {
+  from { transform: scale(0.6); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes confetti-fall {
+  from { transform: translate3d(0, -10vh, 0) rotate(0deg); opacity: 1; }
+  to { transform: translate3d(var(--dx), 100vh, 0) rotate(var(--rot)); opacity: 0.9; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-bounce-once { animation: bounce-once 600ms ease-out; }
+.animate-wobble { animation: wobble 500ms ease-in-out; }
+.animate-glow { animation: glow 1.2s ease-out infinite; }
+.animate-pop-in { animation: pop-in 350ms cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.animate-float { animation: float 2.4s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+  .confetti { display: none; }
+}

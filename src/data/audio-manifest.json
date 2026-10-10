@@ -1,0 +1,698 @@
+[
+  {
+    "id": "letter.alif.name",
+    "src": null,
+    "tts": "أَلِف",
+    "placeholder": true
+  },
+  {
+    "id": "letter.alif.sound",
+    "src": "audio/letters/alif.fathah.mp3",
+    "tts": "أَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.alif.kasrah",
+    "src": "audio/letters/alif.kasrah.mp3",
+    "tts": "إِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.alif.dhammah",
+    "src": "audio/letters/alif.dhammah.mp3",
+    "tts": "أُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ba.name",
+    "src": null,
+    "tts": "بَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ba.sound",
+    "src": "audio/letters/ba.fathah.mp3",
+    "tts": "بَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ba.kasrah",
+    "src": "audio/letters/ba.kasrah.mp3",
+    "tts": "بِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ba.dhammah",
+    "src": "audio/letters/ba.dhammah.mp3",
+    "tts": "بُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ta.name",
+    "src": null,
+    "tts": "تَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ta.sound",
+    "src": "audio/letters/ta.fathah.mp3",
+    "tts": "تَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ta.kasrah",
+    "src": "audio/letters/ta.kasrah.mp3",
+    "tts": "تِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ta.dhammah",
+    "src": "audio/letters/ta.dhammah.mp3",
+    "tts": "تُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tsa.name",
+    "src": null,
+    "tts": "ثَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.tsa.sound",
+    "src": "audio/letters/tsa.fathah.mp3",
+    "tts": "ثَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tsa.kasrah",
+    "src": "audio/letters/tsa.kasrah.mp3",
+    "tts": "ثِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tsa.dhammah",
+    "src": "audio/letters/tsa.dhammah.mp3",
+    "tts": "ثُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.jim.name",
+    "src": null,
+    "tts": "جِيم",
+    "placeholder": true
+  },
+  {
+    "id": "letter.jim.sound",
+    "src": "audio/letters/jim.fathah.mp3",
+    "tts": "جَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.jim.kasrah",
+    "src": "audio/letters/jim.kasrah.mp3",
+    "tts": "جِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.jim.dhammah",
+    "src": "audio/letters/jim.dhammah.mp3",
+    "tts": "جُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha_h.name",
+    "src": null,
+    "tts": "حَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ha_h.sound",
+    "src": "audio/letters/ha_h.fathah.mp3",
+    "tts": "حَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha_h.kasrah",
+    "src": "audio/letters/ha_h.kasrah.mp3",
+    "tts": "حِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha_h.dhammah",
+    "src": "audio/letters/ha_h.dhammah.mp3",
+    "tts": "حُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kho.name",
+    "src": null,
+    "tts": "خَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.kho.sound",
+    "src": "audio/letters/kho.fathah.mp3",
+    "tts": "خَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kho.kasrah",
+    "src": "audio/letters/kho.kasrah.mp3",
+    "tts": "خِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kho.dhammah",
+    "src": "audio/letters/kho.dhammah.mp3",
+    "tts": "خُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dal.name",
+    "src": null,
+    "tts": "دَال",
+    "placeholder": true
+  },
+  {
+    "id": "letter.dal.sound",
+    "src": "audio/letters/dal.fathah.mp3",
+    "tts": "دَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dal.kasrah",
+    "src": "audio/letters/dal.kasrah.mp3",
+    "tts": "دِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dal.dhammah",
+    "src": "audio/letters/dal.dhammah.mp3",
+    "tts": "دُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dzal.name",
+    "src": null,
+    "tts": "ذَال",
+    "placeholder": true
+  },
+  {
+    "id": "letter.dzal.sound",
+    "src": "audio/letters/dzal.fathah.mp3",
+    "tts": "ذَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dzal.kasrah",
+    "src": "audio/letters/dzal.kasrah.mp3",
+    "tts": "ذِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dzal.dhammah",
+    "src": "audio/letters/dzal.dhammah.mp3",
+    "tts": "ذُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ro.name",
+    "src": null,
+    "tts": "رَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ro.sound",
+    "src": "audio/letters/ro.fathah.mp3",
+    "tts": "رَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ro.kasrah",
+    "src": "audio/letters/ro.kasrah.mp3",
+    "tts": "رِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ro.dhammah",
+    "src": "audio/letters/ro.dhammah.mp3",
+    "tts": "رُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zai.name",
+    "src": null,
+    "tts": "زَاي",
+    "placeholder": true
+  },
+  {
+    "id": "letter.zai.sound",
+    "src": "audio/letters/zai.fathah.mp3",
+    "tts": "زَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zai.kasrah",
+    "src": "audio/letters/zai.kasrah.mp3",
+    "tts": "زِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zai.dhammah",
+    "src": "audio/letters/zai.dhammah.mp3",
+    "tts": "زُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.sin.name",
+    "src": null,
+    "tts": "سِين",
+    "placeholder": true
+  },
+  {
+    "id": "letter.sin.sound",
+    "src": "audio/letters/sin.fathah.mp3",
+    "tts": "سَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.sin.kasrah",
+    "src": "audio/letters/sin.kasrah.mp3",
+    "tts": "سِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.sin.dhammah",
+    "src": "audio/letters/sin.dhammah.mp3",
+    "tts": "سُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.syin.name",
+    "src": null,
+    "tts": "شِين",
+    "placeholder": true
+  },
+  {
+    "id": "letter.syin.sound",
+    "src": "audio/letters/syin.fathah.mp3",
+    "tts": "شَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.syin.kasrah",
+    "src": "audio/letters/syin.kasrah.mp3",
+    "tts": "شِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.syin.dhammah",
+    "src": "audio/letters/syin.dhammah.mp3",
+    "tts": "شُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.shod.name",
+    "src": null,
+    "tts": "صَاد",
+    "placeholder": true
+  },
+  {
+    "id": "letter.shod.sound",
+    "src": "audio/letters/shod.fathah.mp3",
+    "tts": "صَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.shod.kasrah",
+    "src": "audio/letters/shod.kasrah.mp3",
+    "tts": "صِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.shod.dhammah",
+    "src": "audio/letters/shod.dhammah.mp3",
+    "tts": "صُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dhod.name",
+    "src": null,
+    "tts": "ضَاد",
+    "placeholder": true
+  },
+  {
+    "id": "letter.dhod.sound",
+    "src": "audio/letters/dhod.fathah.mp3",
+    "tts": "ضَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dhod.kasrah",
+    "src": "audio/letters/dhod.kasrah.mp3",
+    "tts": "ضِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.dhod.dhammah",
+    "src": "audio/letters/dhod.dhammah.mp3",
+    "tts": "ضُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tho.name",
+    "src": null,
+    "tts": "طَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.tho.sound",
+    "src": "audio/letters/tho.fathah.mp3",
+    "tts": "طَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tho.kasrah",
+    "src": "audio/letters/tho.kasrah.mp3",
+    "tts": "طِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.tho.dhammah",
+    "src": "audio/letters/tho.dhammah.mp3",
+    "tts": "طُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zho.name",
+    "src": null,
+    "tts": "ظَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.zho.sound",
+    "src": "audio/letters/zho.fathah.mp3",
+    "tts": "ظَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zho.kasrah",
+    "src": "audio/letters/zho.kasrah.mp3",
+    "tts": "ظِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.zho.dhammah",
+    "src": "audio/letters/zho.dhammah.mp3",
+    "tts": "ظُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ain.name",
+    "src": null,
+    "tts": "عَيْن",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ain.sound",
+    "src": "audio/letters/ain.fathah.mp3",
+    "tts": "عَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ain.kasrah",
+    "src": "audio/letters/ain.kasrah.mp3",
+    "tts": "عِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ain.dhammah",
+    "src": "audio/letters/ain.dhammah.mp3",
+    "tts": "عُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ghoin.name",
+    "src": null,
+    "tts": "غَيْن",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ghoin.sound",
+    "src": "audio/letters/ghoin.fathah.mp3",
+    "tts": "غَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ghoin.kasrah",
+    "src": "audio/letters/ghoin.kasrah.mp3",
+    "tts": "غِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ghoin.dhammah",
+    "src": "audio/letters/ghoin.dhammah.mp3",
+    "tts": "غُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.fa.name",
+    "src": null,
+    "tts": "فَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.fa.sound",
+    "src": "audio/letters/fa.fathah.mp3",
+    "tts": "فَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.fa.kasrah",
+    "src": "audio/letters/fa.kasrah.mp3",
+    "tts": "فِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.fa.dhammah",
+    "src": "audio/letters/fa.dhammah.mp3",
+    "tts": "فُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.qof.name",
+    "src": null,
+    "tts": "قَاف",
+    "placeholder": true
+  },
+  {
+    "id": "letter.qof.sound",
+    "src": "audio/letters/qof.fathah.mp3",
+    "tts": "قَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.qof.kasrah",
+    "src": "audio/letters/qof.kasrah.mp3",
+    "tts": "قِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.qof.dhammah",
+    "src": "audio/letters/qof.dhammah.mp3",
+    "tts": "قُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kaf.name",
+    "src": null,
+    "tts": "كَاف",
+    "placeholder": true
+  },
+  {
+    "id": "letter.kaf.sound",
+    "src": "audio/letters/kaf.fathah.mp3",
+    "tts": "كَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kaf.kasrah",
+    "src": "audio/letters/kaf.kasrah.mp3",
+    "tts": "كِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.kaf.dhammah",
+    "src": "audio/letters/kaf.dhammah.mp3",
+    "tts": "كُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.lam.name",
+    "src": null,
+    "tts": "لَام",
+    "placeholder": true
+  },
+  {
+    "id": "letter.lam.sound",
+    "src": "audio/letters/lam.fathah.mp3",
+    "tts": "لَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.lam.kasrah",
+    "src": "audio/letters/lam.kasrah.mp3",
+    "tts": "لِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.lam.dhammah",
+    "src": "audio/letters/lam.dhammah.mp3",
+    "tts": "لُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.mim.name",
+    "src": null,
+    "tts": "مِيم",
+    "placeholder": true
+  },
+  {
+    "id": "letter.mim.sound",
+    "src": "audio/letters/mim.fathah.mp3",
+    "tts": "مَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.mim.kasrah",
+    "src": "audio/letters/mim.kasrah.mp3",
+    "tts": "مِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.mim.dhammah",
+    "src": "audio/letters/mim.dhammah.mp3",
+    "tts": "مُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.nun.name",
+    "src": null,
+    "tts": "نُون",
+    "placeholder": true
+  },
+  {
+    "id": "letter.nun.sound",
+    "src": "audio/letters/nun.fathah.mp3",
+    "tts": "نَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.nun.kasrah",
+    "src": "audio/letters/nun.kasrah.mp3",
+    "tts": "نِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.nun.dhammah",
+    "src": "audio/letters/nun.dhammah.mp3",
+    "tts": "نُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.wau.name",
+    "src": null,
+    "tts": "وَاو",
+    "placeholder": true
+  },
+  {
+    "id": "letter.wau.sound",
+    "src": "audio/letters/wau.fathah.mp3",
+    "tts": "وَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.wau.kasrah",
+    "src": "audio/letters/wau.kasrah.mp3",
+    "tts": "وِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.wau.dhammah",
+    "src": "audio/letters/wau.dhammah.mp3",
+    "tts": "وُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha.name",
+    "src": null,
+    "tts": "هَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ha.sound",
+    "src": "audio/letters/ha.fathah.mp3",
+    "tts": "هَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha.kasrah",
+    "src": "audio/letters/ha.kasrah.mp3",
+    "tts": "هِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ha.dhammah",
+    "src": "audio/letters/ha.dhammah.mp3",
+    "tts": "هُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.hamzah.name",
+    "src": null,
+    "tts": "هَمْزَة",
+    "placeholder": true
+  },
+  {
+    "id": "letter.hamzah.sound",
+    "src": "audio/letters/hamzah.fathah.mp3",
+    "tts": "ءَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.hamzah.kasrah",
+    "src": "audio/letters/hamzah.kasrah.mp3",
+    "tts": "ءِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.hamzah.dhammah",
+    "src": "audio/letters/hamzah.dhammah.mp3",
+    "tts": "ءُ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ya.name",
+    "src": null,
+    "tts": "يَاء",
+    "placeholder": true
+  },
+  {
+    "id": "letter.ya.sound",
+    "src": "audio/letters/ya.fathah.mp3",
+    "tts": "يَ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ya.kasrah",
+    "src": "audio/letters/ya.kasrah.mp3",
+    "tts": "يِ",
+    "placeholder": false
+  },
+  {
+    "id": "letter.ya.dhammah",
+    "src": "audio/letters/ya.dhammah.mp3",
+    "tts": "يُ",
+    "placeholder": false
+  }
+]
